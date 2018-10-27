@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Validate Login in the page NewTours.com" skipped="0" tests="3" time="72.13" timestamp="2018-10-27 03:23:07"><testcase name="Title of your scenario"><failure message="Element should be visible" type="java.lang.AssertionError">Element should be visible</failure><system-err>Element should be visible&#13;
+com.newtourspagesobject.NewToursPagesObjectLogin.singOff(NewToursPagesObjectLogin.java:37)&#13;
+com.newtoursloginsteps.NewToursLoginSteps.watchSingOff(NewToursLoginSteps.java:34)&#13;
+com.newtours.stepsdefinitions.NewtoursStepsDefinitions.the_user_should_see_the_option(NewtoursStepsDefinitions.java:33)&#13;
+✽.the user should see the option SIGN-OFF(resources/features/validLogin.feature:12)&#13;
+</system-err></testcase></testsuite>

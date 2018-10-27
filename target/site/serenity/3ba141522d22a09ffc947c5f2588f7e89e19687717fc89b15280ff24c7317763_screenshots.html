@@ -1,0 +1,310 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Serenity-NewtoursLogin</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="651cb0602ee427b1fe6c1db806497a4a793dae1b619ef3ca22713c4072e380f7.html">Validate Login In The Page Newtours.Com</a></span>
+                > <span class="truncate-60"><a
+                    href="3ba141522d22a09ffc947c5f2588f7e89e19687717fc89b15280ff24c7317763.html">Title of your scenario </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-10-2018 03:23</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Validate Login In The Page Newtours.Com</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                I want to validate the user and the password in the login newtours
+                                </div>
+                            </div>
+
+                            <div class="requirementNarrative">Background: I am going to validate the steps to correct login in the page newtours
+                                    <p></p>
+                            </div>
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="0b6bc914846e60559eb6348159a08dffa6f768a40dda61cfae7e090c58c90b35.html">:Header[]
+                                    (end)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="0f28cbd4dd5cfb6a387c1c0773ee765352af3b73c338758be0e2ee6bfc6e4279.html">:Wrong Scenario[]
+                                    (end)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="fd78fee71e93989787d3c03f201983d0226735331e1110cd9b37e5162bef1865.html">:Wrong Scenario[]
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="b682f9e5f433fb4f0b0356879d0fb0cd4a38ee7bab0eb36094e6adce622d383a.html">:Header[]
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Title of your scenario
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given the user open the browser in the login page of newtours.com<br>When this user write the username &lt;user&gt; in User Name: and the password &lt;password&gt; in Password:<br>And the user presses click on the submit button<br>Then the user should see the option &lt;option&gt;</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Element should be visible</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.newtourspagesobject.NewToursPagesObjectLogin.singOff(NewToursPagesObjectLogin.java:37)<br />com.newtoursloginsteps.NewToursLoginSteps.watchSingOff(NewToursLoginSteps.java:34)<br />com.newtours.stepsdefinitions.NewtoursStepsDefinitions.the_user_should_see_the_option(NewtoursStepsDefinitions.java:33)<br />✽.the user should see the option SIGN-OFF(resources/features/validLogin.feature:12)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource8722907922780641435.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="96169248fa371b1167721ef2032391a4424296c78d90cfd1b6a8d03a127698f8.png" title="Given the user open the browser in the login page of newtours.com" width="1366"/>
+                <img src="96169248fa371b1167721ef2032391a4424296c78d90cfd1b6a8d03a127698f8.png" title="Go to new tours login" width="1366"/>
+                <img src="96169248fa371b1167721ef2032391a4424296c78d90cfd1b6a8d03a127698f8.png" title="When this user write the username johan in User Name: and the password 1234 in Password:" width="1366"/>
+                <img src="45063415634858236702ec8b7261959542a2aae4af2651d7986a0754ae18be21.png" title="When this user write the username johan in User Name: and the password 1234 in Password:" width="1366"/>
+                <img src="96169248fa371b1167721ef2032391a4424296c78d90cfd1b6a8d03a127698f8.png" title="Write user and password: johan, 1234" width="1366"/>
+                <img src="8936d577b89bfb7bff25f7d27206dc947153eff0e491e5818c3ebe531f69c53b.png" title="Write user and password: johan, 1234" width="1366"/>
+                <img src="7eb6d1b8285ccffd7ac666eabad47c5df5deaea4794ea0c9fc30e873b065e13e.png" title="Write user and password: johan, 1234" width="1366"/>
+                <img src="45063415634858236702ec8b7261959542a2aae4af2651d7986a0754ae18be21.png" title="Write user and password: johan, 1234" width="1366"/>
+                <img src="7eb6d1b8285ccffd7ac666eabad47c5df5deaea4794ea0c9fc30e873b065e13e.png" title="And the user presses click on the submit button" width="1366"/>
+                <img src="f544d548fb93255d207e4b14a4577fae4472e863c01b684db7b2251176583478.png" title="And the user presses click on the submit button" width="1366"/>
+                <img src="7eb6d1b8285ccffd7ac666eabad47c5df5deaea4794ea0c9fc30e873b065e13e.png" title="Click on submit" width="1366"/>
+                <img src="f544d548fb93255d207e4b14a4577fae4472e863c01b684db7b2251176583478.png" title="Click on submit" width="1366"/>
+                <img src="f544d548fb93255d207e4b14a4577fae4472e863c01b684db7b2251176583478.png" title="Then the user should see the option SIGN-OFF" width="1366"/>
+                <img src="f544d548fb93255d207e4b14a4577fae4472e863c01b684db7b2251176583478.png" title="Watch sing off" width="1366"/>
+                <img src="f544d548fb93255d207e4b14a4577fae4472e863c01b684db7b2251176583478.png" title="Watch sing off" width="1366"/>
+                <img src="96169248fa371b1167721ef2032391a4424296c78d90cfd1b6a8d03a127698f8.png" title="Given the user open the browser in the login page of newtours.com" width="1366"/>
+                <img src="96169248fa371b1167721ef2032391a4424296c78d90cfd1b6a8d03a127698f8.png" title="Go to new tours login" width="1366"/>
+                <img src="96169248fa371b1167721ef2032391a4424296c78d90cfd1b6a8d03a127698f8.png" title="When this user write the username johanes in User Name: and the password dfad in Password:" width="1366"/>
+                <img src="233b230a8faef9e89cb006112e58f43b7d27dc9a82ca10117cff9ee0a118039d.png" title="When this user write the username johanes in User Name: and the password dfad in Password:" width="1366"/>
+                <img src="96169248fa371b1167721ef2032391a4424296c78d90cfd1b6a8d03a127698f8.png" title="Write user and password: johanes, dfad" width="1366"/>
+                <img src="10b145669f095449bc9a7c9240d44e34f0160bfedc3bcece8019e40a7f2afb87.png" title="Write user and password: johanes, dfad" width="1366"/>
+                <img src="9538e75b075578c8069fda75fcbae55476b20f279c23461cb747cf6ffca22803.png" title="Write user and password: johanes, dfad" width="1366"/>
+                <img src="9538e75b075578c8069fda75fcbae55476b20f279c23461cb747cf6ffca22803.png" title="And the user presses click on the submit button" width="1366"/>
+                <img src="f544d548fb93255d207e4b14a4577fae4472e863c01b684db7b2251176583478.png" title="And the user presses click on the submit button" width="1366"/>
+                <img src="9538e75b075578c8069fda75fcbae55476b20f279c23461cb747cf6ffca22803.png" title="Click on submit" width="1366"/>
+                <img src="f544d548fb93255d207e4b14a4577fae4472e863c01b684db7b2251176583478.png" title="Click on submit" width="1366"/>
+                <img src="f544d548fb93255d207e4b14a4577fae4472e863c01b684db7b2251176583478.png" title="Then the user should see the option SIGN-OFF" width="1366"/>
+                <img src="f544d548fb93255d207e4b14a4577fae4472e863c01b684db7b2251176583478.png" title="Watch sing off" width="1366"/>
+                <img src="f544d548fb93255d207e4b14a4577fae4472e863c01b684db7b2251176583478.png" title="Watch sing off" width="1366"/>
+                <img src="e4e9ad69e9aaed974913e34f55a03a9f426be3d10104c864d8e6c12e5b4100c5.png" title="Example #3: {user=johanes, password=12345, option=SIGN-OFF}" width="1366"/>
+                <img src="96169248fa371b1167721ef2032391a4424296c78d90cfd1b6a8d03a127698f8.png" title="Given the user open the browser in the login page of newtours.com" width="1366"/>
+                <img src="96169248fa371b1167721ef2032391a4424296c78d90cfd1b6a8d03a127698f8.png" title="Go to new tours login" width="1366"/>
+                <img src="96169248fa371b1167721ef2032391a4424296c78d90cfd1b6a8d03a127698f8.png" title="When this user write the username johanes in User Name: and the password 12345 in Password:" width="1366"/>
+                <img src="de19dfd9cac964893331e71914c0226c789c464eab2035f399439344c07fb572.png" title="When this user write the username johanes in User Name: and the password 12345 in Password:" width="1366"/>
+                <img src="96169248fa371b1167721ef2032391a4424296c78d90cfd1b6a8d03a127698f8.png" title="Write user and password: johanes, 12345" width="1366"/>
+                <img src="10b145669f095449bc9a7c9240d44e34f0160bfedc3bcece8019e40a7f2afb87.png" title="Write user and password: johanes, 12345" width="1366"/>
+                <img src="20e1ca7b737449a05b3acc02ee34919712b535b04310ce4143d3a4cbeb6ae960.png" title="Write user and password: johanes, 12345" width="1366"/>
+                <img src="de19dfd9cac964893331e71914c0226c789c464eab2035f399439344c07fb572.png" title="Write user and password: johanes, 12345" width="1366"/>
+                <img src="20e1ca7b737449a05b3acc02ee34919712b535b04310ce4143d3a4cbeb6ae960.png" title="And the user presses click on the submit button" width="1366"/>
+                <img src="e4e9ad69e9aaed974913e34f55a03a9f426be3d10104c864d8e6c12e5b4100c5.png" title="And the user presses click on the submit button" width="1366"/>
+                <img src="20e1ca7b737449a05b3acc02ee34919712b535b04310ce4143d3a4cbeb6ae960.png" title="Click on submit" width="1366"/>
+                <img src="e4e9ad69e9aaed974913e34f55a03a9f426be3d10104c864d8e6c12e5b4100c5.png" title="Click on submit" width="1366"/>
+                <img src="e4e9ad69e9aaed974913e34f55a03a9f426be3d10104c864d8e6c12e5b4100c5.png" title="Then the user should see the option SIGN-OFF" width="1366"/>
+                <img src="e4e9ad69e9aaed974913e34f55a03a9f426be3d10104c864d8e6c12e5b4100c5.png" title="Watch sing off: <span class='failing-color'>FAILURE</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.7</span>
+</div>
+</body>
+</html>
